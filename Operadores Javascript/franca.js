@@ -5,7 +5,7 @@ let horaFr = horaBr + 5
 let turno
 
 if(horaFr >= 24){
-    horaFr -=24
+    horaFr -=24  
 }
 if(horaFr >= 1 && horaFr <= 12 ){
     turno = "manhã"

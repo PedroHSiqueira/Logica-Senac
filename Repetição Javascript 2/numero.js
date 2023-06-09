@@ -2,13 +2,13 @@ const prompt = require("prompt-sync")();
 
 let contador = 0;
 let total = 0;
-
 let maior = 0;
+
 
 let numero;
 do {
-  contador++;
   numero = Number(prompt("Numero: "));
+  contador++;
   total += numero;
 
   if (numero > maior) {
